@@ -2,7 +2,7 @@
 
 ## makeCacheMatrix creates a cache matrix
 
-makeCacheMatrix<-function(x=numeric()){
+makeCacheMatrix<-function(x=matrix()){
   inv <- NULL
   set <- function(y) {
     x <<- y
